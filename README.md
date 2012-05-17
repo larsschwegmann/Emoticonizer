@@ -1,4 +1,4 @@
 Emoticonizer
 ============
 
-Converts a given string with common chat smileys like :) to emoji symbols like \ue415.
+Converts a given string with common chat smileys like :) to emoji symbols.
