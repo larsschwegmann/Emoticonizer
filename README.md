@@ -13,4 +13,4 @@ To use the Emoticonizer class just import it and call:
 
 License
 -------
-This Project is released under the Creative Commons 3.0 unported license.
+This Project is released under the Creative Commons 3.0 unported license: http://creativecommons.org/licenses/by/3.0/
