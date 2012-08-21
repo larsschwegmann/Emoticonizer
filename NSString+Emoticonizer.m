@@ -6,13 +6,16 @@
 //  Copyright 2011 Schwegmaxx. All rights reserved.
 //
 
-#import "Emoticonizer.h"
+#import "NSString+Emoticonizer.h"
 
 
-@implementation Emoticonizer
+@implementation NSString (Emoticonizer)
 
+-(NSString *)emoticonizedString{
+	return [self emoticonizedString:self];
+}
 
-+(NSString *)emoticonizeString:(NSString *)aString{
++(NSString *)emoticonizedString:(NSString *)aString{
 
 	NSString *text = aString;
 	//Begin Emoticon Search
