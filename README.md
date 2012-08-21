@@ -7,23 +7,16 @@ Installation
 ------------
 To use the Emoticonizer class just import it:
 
-````Objective-C
-NSString *myString = @"Hi! :)";
-NSString *myOtherString = [myString emoticonizedString];
-´´´´
+    #import "NSString+Emoticonizer.h"
 
 and call:
 
-````Objective-C
-NSString *myString = [NSString emoticonizedString:@"Hello :D"];
-````
+    NSString *myString = [NSString emoticonizedString:@"Hello :D"];
 
 or
 
-````Objective-C
-NSString *myString = @"Hi! :)";
-NSString *myOtherString = [myString emoticonizedString];
-´´´´
+    NSString *myString = @"Hi! :)";
+    NSString *myOtherString = [myString emoticonizedString];
 
 License
 -------
