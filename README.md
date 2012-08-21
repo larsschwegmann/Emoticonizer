@@ -8,7 +8,8 @@ Installation
 To use the Emoticonizer class just import it:
 
 ````Objective-C
-#import "NSString+Emoticonizer.h"
+NSString *myString = @"Hi! :)";
+NSString *myOtherString = [myString emoticonizedString];
 ´´´´
 
 and call:
