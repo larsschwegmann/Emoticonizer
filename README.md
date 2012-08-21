@@ -6,10 +6,23 @@ Converts a given string with common chat smileys like :) to emoji symbols.
 Installation
 ------------
 
-To use the Emoticonizer class just import it and call:
+To use the Emoticonizer class just import it:
+
 ````Objective-C
-[Emoticonizer emoticonizeString:@"Hello :D"];
+#import "NSString+Emoticonizer.h"
+´´´´
+
+and call:
+````Objective-C
+NSString *myString = [NSString emoticonizedString:@"Hello :D"];
 ````
+
+or
+
+````Objective-C
+NSString *myString = @"Hi! :)";
+NSString *myOtherString = [myString emoticonizedString];
+´´´´
 
 License
 -------
