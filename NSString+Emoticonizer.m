@@ -12,7 +12,7 @@
 @implementation NSString (Emoticonizer)
 
 -(NSString *)emoticonizedString{
-	return [self emoticonizedString:self];
+	return [NSString emoticonizedString:self];
 }
 
 +(NSString *)emoticonizedString:(NSString *)aString{
