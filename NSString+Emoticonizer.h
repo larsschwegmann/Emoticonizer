@@ -9,10 +9,11 @@
 #import <Foundation/Foundation.h>
 
 
-@interface Emoticonizer : NSObject {
+@interface NSString (Emoticonizer) {
 
 }
 
-+(NSString *)emoticonizeString:(NSString *)aString;
+-(NSString *)emoticonizedString;
++(NSString *)emoticonizedString:(NSString *)aString;
 
 @end
